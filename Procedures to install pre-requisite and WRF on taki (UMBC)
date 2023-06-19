@@ -248,6 +248,7 @@ WRF
 
 
 WRF-Chem
+(If you do not need WRF-Chem, just skip this step)
 [vy57456@maya-usr1 WRF]$./compile emi_conv 2>&1 |tee compile_emi_conv.log
 
 
