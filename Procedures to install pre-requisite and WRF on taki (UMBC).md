@@ -32,17 +32,20 @@ prefix: specify the directory where to install. (Different from the location of 
 
 2. make
 ```
-$make >& make.log
+make >& make.log
 ```
 
 3. make check
 
-(base) [Tue Jun 16 16:00:15 vy57456 szip-2.1.1]$make check >&make_check.log
+```
+make check >&make_check.log
+```
 
 4. make install
 
-(base) [Tue Jun 16 16:02:16 vy57456 szip-2.1.1]$make install >&make_install.log
-
+```
+make install >&make_install.log
+```
 
 
 zlib-1.2.11
@@ -50,7 +53,11 @@ zlib-1.2.11
 install zlib-1.2.11 using GCC/4.8.2
 https://sourceforge.net/projects/libpng/files/zlib/1.2.11/ 
 1. configure
-(base) [Tue Jun 16 16:57:30 vy57456 zlib-1.2.11]$./configure --prefix=/home/vy57456/zzbatmos_user/application/gfortran/4.8.2/zlib-1.2.11
+
+```
+./configure --prefix=/home/vy57456/zzbatmos_user/application/gfortran/4.8.2/zlib-1.2.11
+```
+
 2. make test
 (base) [Tue Jun 16 16:58:10 vy57456 zlib-1.2.11]$make test >&make_test.log
 3. make install
