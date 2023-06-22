@@ -31,9 +31,9 @@ prefix: specify the directory where to install. (Different from the location of 
 (base) [Tue Jun 16 16:06:55 vy57456 szip-2.1.1]$./configure CC=/usr/ebuild/software/GCC/4.8.2/bin/gcc FC=/usr/ebuild/software/GCC/4.8.2/bin/gfortran CXX=/usr/ebuild/software/GCC/4.8.2/bin/c++ --prefix=/home/vy57456/zzbatmos_user/application/gfortran/4.8.2/szip-2.1.1
 
 2. make
-
-(base) [Tue Jun 16 16:00:01 vy57456 szip-2.1.1]$make >& make.log
-
+```
+$make >& make.log
+```
 3. make check
 
 (base) [Tue Jun 16 16:00:15 vy57456 szip-2.1.1]$make check >&make_check.log
